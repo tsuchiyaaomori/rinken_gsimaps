@@ -1,0 +1,27 @@
+{"layers": [
+{
+  "type": "Layer",
+  "title": "地理院タイル（標準地図）",
+  "attribution": "地理院タイル（標準地図）",
+  "legendUrl": "http://cyberjapan.jp/legend/std.pdf",
+  "html": "<h1>地理院タイル（標準地図）</h1><a href='http://cyberjapan.jp/legend/std.pdf'>凡例</a>",
+  "url": "http://cyberjapandata-t{s}.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+  "subdomains": "123"
+},
+{
+  "type": "LayerGroup",
+  "title": "写真",
+  "open": true,
+  "entries": [
+  {
+    "type": "Layer",
+    "title": "最新（2007年）",
+    "attribution": "地理院タイル（オルソ画像）",
+    "legendUrl": "http://cyberjapan.jp/legend/ort.pdf",
+    "html": "<h1>地理院タイル（オルソ画像）</h1><a href='http://cyberjapan.jp/legend/ort.pdf'>凡例</a>",
+    "url": "http://cyberjapandata-t{s}.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg",
+    "subdomains": "123"
+  }
+  ]
+}
+]}
