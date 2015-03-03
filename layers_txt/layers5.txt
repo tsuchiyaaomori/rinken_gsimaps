@@ -1,27 +1,31 @@
-{"layers": [
 {
-  "type": "Layer",
-  "title": "’n—‰@ƒ^ƒCƒ‹i•W€’n}j",
-  "attribution": "’n—‰@ƒ^ƒCƒ‹i•W€’n}j",
-  "legendUrl": "http://cyberjapan.jp/legend/std.pdf",
-  "html": "<h1>’n—‰@ƒ^ƒCƒ‹i•W€’n}j</h1><a href='http://cyberjapan.jp/legend/std.pdf'>–}—á</a>",
-  "url": "http://cyberjapandata-t{s}.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
-  "subdomains": "123"
-},
-{
-  "type": "LayerGroup",
-  "title": "Ê^",
-  "open": true,
-  "entries": [
-  {
-    "type": "Layer",
-    "title": "ÅVi2007”Nj",
-    "attribution": "’n—‰@ƒ^ƒCƒ‹iƒIƒ‹ƒ\‰æ‘œj",
-    "legendUrl": "http://cyberjapan.jp/legend/ort.pdf",
-    "html": "<h1>’n—‰@ƒ^ƒCƒ‹iƒIƒ‹ƒ\‰æ‘œj</h1><a href='http://cyberjapan.jp/legend/ort.pdf'>–}—á</a>",
-    "url": "http://cyberjapandata-t{s}.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg",
-    "subdomains": "123"
-  }
-  ]
+	"layers": [
+		{
+			"type": "LayerGroup",
+			"title": "ä»–ã®æ©Ÿé–¢",
+			"iconUrl": "",
+			"entries": [
+				{
+					"type": "LayerGroup",
+					"title": "æ—æ¥­ç ”ç©¶æ‰€",
+					"open": false,
+					"toggleall": false,
+					"entries": [
+						{
+							"type": "Layer",
+							"title": "æœ‰åŠ¹ç©ç®—æ¸©é‡å›³",
+							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/site/mapuse4/js/skin/101.png",
+							"url": "https://github.com/tsuchiyaaomori/rinken_gsimaps/blob/gh-pages/custum/test.geojson",
+							"subdomains": "",
+							"attribution": "",
+							"cocotile": false,
+							"html": ""
+						}
+					]
+				}
+			],
+			"open": false,
+			"toggleall": false
+		}
+	]
 }
-]}
