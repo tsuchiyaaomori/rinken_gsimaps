@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="ecorismap">
+        <title>第5回植生図（陰影起伏）</title>
+	<link rel="stylesheet" href="css/mystyle.css" type="text/css">
+        <script src="js/OpenLayers.js"></script>
+	<script src="js/webtis_v4_light.js" charset="UTF-8"></script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="tooltip"></div>
+		<div id="gps"><a href="javascript:void(0);" onclick="changeGeolocate();">▲</a></div>
+	<div id='legend'>
+	<div id='tweet-button'>
+	<a href="javascript:void(0);" onclick="window.open('https://twitter.com/share?url='+encodeURIComponent(location.href),'view');" id="custom-tweet-button"><img src="js/img/tweet-button.png"></a>
+	</div>
+	<div id='legend-close'></div>
+   <div id='legend-title'><a href="http://www.vegetation.jp/zu/shokuseitai.html">色凡例</a></div>
+   <div id='legend-opacity'>
+            <a title="decrease opacity" href="javascript: changeOpacity(-0.1);">&lt;&lt;</a>
+            <input id="opacity" type="text" value="0.9" size="3" disabled="true" />
+            <a title="increase opacity" href="javascript: changeOpacity(0.1);">&gt;&gt;</a>   
+	</div>
+
+   <div class='legend-scale'>
+   <ul class='legend-labels'>
+      <li><span style='background:#fdf1ce;'></span>高山帯自然植生</li>
+      <li><span style='background:#997f60;'></span>コケモモートウヒクラス域 自然植生</li>
+      <li><span style='background:#a58f74;'></span>〃 代償植生</li>
+      <li><span style='background:#178017;'></span>ブナクラス域 自然植生</li>
+      <li><span style='background:#5b9700;'></span>〃 代償植生</li>
+      <li><span style='background:#003300;'></span>ヤブツバキクラス域 自然植生</li>
+      <li><span style='background:#004a00;'></span>〃 代償植生</li>
+      <li><span style='background:#ffff00;'></span>河川・湿原・沼沢地・砂丘植生</li>
+      <li><span style='background:#697720;'></span>植林地</li>
+      <li><span style='background:#8cd27d;'></span>耕作地</li>
+      <li><span style='background:#868585;'></span>市街地</li>
+      <li><span style='background:#99ffff;'></span>開放水域</li>
+      zoom >= 12
+      <li><span style='background:#cccc20;'></span>竹林</li>
+      <li><span style='background:#69ff00;'></span>牧草地・ゴルフ場・芝地</li>
+      <li><span style='background:#999662;'></span>水田以外の耕作地</li>
+   </ul>
+   </div>
+   <div class='legend-source'>Data:<br/> <a href="http://www.biodic.go.jp/trialSystem/shpddl.html" target="_blank">環境省 自然環境保全基礎調査<br/> 第5回植生調査</a><br/>
+   <a href="http://www.gsi.go.jp/kiban/" target="_blank">国土地理院 基盤地図情報<br/> 数値標高データ</a>
+   </div>
+  
+  </div>
+   <div id='legend-open'></div>
+	<script src="js/indexmap.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39682440-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
