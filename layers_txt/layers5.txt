@@ -4,33 +4,29 @@
 			"type": "LayerGroup",
 			"title": "他の機関",
 			"iconUrl": "",
-			"open": false,
-			"toggleall": false,
 			"entries": [
 				{
 					"type": "LayerGroup",
 					"title": "林業研究所",
-					"iconUrl": "",
 					"open": false,
 					"toggleall": false,
 					"entries": [
 						{
 							"type": "Layer",
-							"id": "",
+							"id": "accumulation temperature",
 							"title": "有効積算温量図",
-							"iconUrl": "http://cyberjapandata.gsi.go.jp/portal/site/mapuse4/js/skin/101.png",
+							"iconUrl": "",
 							"url": "https://github.com/tsuchiyaaomori/rinken_gsimaps/blob/gh-pages/custum/test.geojson",
 							"subdomains": "",
 							"attribution": "",
 							"cocotile": false,
-							"minZoom": "10",
-							"maxZoom": "10",
-							"legendUrl": "",
 							"html": ""
 						}
 					]
 				}
-			]
+			],
+			"open": false,
+			"toggleall": false
 		}
 	]
 }
